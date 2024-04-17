@@ -5,3 +5,6 @@ if num%2==0:
 else:
     print("ODD NUMBER")
 #2
+num=input("Enter a number")
+last_number=int(num[-1])
+print(last_number)
