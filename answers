@@ -1,0 +1,7 @@
+#1
+num=int(input("Enter A Number:"))
+if num%2==0:
+    print("EVEN NUMBER")
+else:
+    print("ODD NUMBER")
+#2
