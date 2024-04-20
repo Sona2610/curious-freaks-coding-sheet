@@ -8,3 +8,12 @@ else:
 num=input("Enter a number")
 last_number=int(num[-1])
 print(last_number)
+#9
+NUM=input("Enter a vale")
+result=''
+for temp in NUM:
+    result=temp+result
+if NUM==result:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")  
