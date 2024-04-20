@@ -8,6 +8,22 @@ else:
 num=input("Enter a number")
 last_number=int(num[-1])
 print(last_number)
+#3
+num=input("Enter a value")
+count=0
+for temp in num:
+    count+=1
+print(count)
+#4
+num=input("Enter a value")
+count=''
+for temp in num:
+    count=temp+count
+print(count)
+#5
+num=int(input("Enter a value"))
+power=int(input("Enter a power"))
+print(num**power)
 #9
 NUM=input("Enter a vale")
 result=''
