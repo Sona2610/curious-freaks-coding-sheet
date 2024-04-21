@@ -24,6 +24,19 @@ print(count)
 num=int(input("Enter a value"))
 power=int(input("Enter a power"))
 print(num**power)
+#8
+num=input("Enter a value: ")
+count=0
+result=0
+for temp in num:
+    count+=1
+for temp in num:
+    digit=int(temp)
+    result+=digit**count
+if int(num)==result:
+    print("arm")
+else:
+    print("not arm")
 #9
 NUM=input("Enter a vale")
 result=''
