@@ -63,6 +63,16 @@ print(out)
 
 #8
 Iterate from 2 to  (n-1) and check if any number in this range divides n. If the number divides n, then it is not a prime number.
+start=eval(input())
+end=eval(input())
+for temp in range(start,end+1):
+    if temp>1:
+        for num in range(2,temp):
+            if temp%num==0:
+                print(temp,"Not a Prime number")
+                break
+        else:
+            print( temp,"Prime Number")
     
 #9
 num=input("Enter a value: ")
