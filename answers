@@ -4,26 +4,63 @@ if num%2==0:
     print("EVEN NUMBER")
 else:
     print("ODD NUMBER")
+num = int(input())
+while num != 0:
+    if  num% 2 == 0:
+        print("even")
+    else:
+        print("odd")
+    num=0
+
 #2
 num=input("Enter a number")
 last_number=int(num[-1])
 print(last_number)
+num = int(input())
+while num != 0:
+    ld=num%10
+    num=0
+print(ld)
+    
 #3
 num=input("Enter a value")
 count=0
 for temp in num:
     count+=1
 print(count)
+num = int(input())
+count=0
+while num != 0:
+    ld=num%10
+    count+=1
+    num//=10
+print(count)
+    
 #4
 num=input("Enter a value")
 count=''
 for temp in num:
     count=temp+count
 print(count)
+num = int(input())
+count=0
+while num != 0:
+    ld=num%10
+    count=count*10+ld
+    num//=10
+print(count)
+    
 #5
 num=int(input("Enter a value"))
 power=int(input("Enter a power"))
 print(num**power)
+num = int(input())
+power=int(input())
+while num != 0:
+    out=num**power
+    num=0
+print(out)
+    
 #8
 num=input("Enter a value: ")
 count=0
@@ -37,6 +74,22 @@ if int(num)==result:
     print("arm")
 else:
     print("not arm")
+
+temp1=temp=num = int(input())
+count=0
+while num != 0:
+    ld=num%10
+    count+=1
+    num//=10
+add=0
+while  temp!=0:
+    ld=temp%10
+    add=add+ld**count
+    temp//=10
+if add==temp1:
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
 #9
 NUM=input("Enter a vale")
 result=''
@@ -46,3 +99,14 @@ if NUM==result:
     print("Palindrome")
 else:
     print("Not a Palindrome")  
+
+temp=num = int(input())
+count=0
+while num != 0:
+    ld=num%10
+    count=count*10+ld
+    num//=10
+if count==temp:
+    print("Palindrome Number")
+else:
+    print("Not an Palindrome Number")
