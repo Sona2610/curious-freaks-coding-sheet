@@ -60,8 +60,11 @@ while num != 0:
     out=num**power
     num=0
 print(out)
-    
+
 #8
+Iterate from 2 to  (n-1) and check if any number in this range divides n. If the number divides n, then it is not a prime number.
+    
+#9
 num=input("Enter a value: ")
 count=0
 result=0
@@ -90,7 +93,8 @@ if add==temp1:
     print("Armstrong Number")
 else:
     print("Not an Armstrong Number")
-#9
+#10
+
 NUM=input("Enter a vale")
 result=''
 for temp in NUM:
